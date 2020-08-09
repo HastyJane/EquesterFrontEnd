@@ -6,22 +6,29 @@ class Home extends Component {
         return (
             <div className="home-container">
                 <div className="container">
-                    <div className="graf-bg-container">
-                        <div className="graf-layout">
-                            <div className="graf-circle">Welcome to Equester</div>
-                            <div className="graf-circle">For Equestrians with Questions</div>
-                            <div className="graf-circle">Welcome to Equester</div>
-                            <div className="graf-circle">For Equestrians with Questions</div>
-                            <div className="graf-circle">Welcome to Equester</div>
-                            <div className="graf-circle">For Equestrians with Questions</div>
-                            <div className="graf-circle">Welcome to Equester</div>
-                            <div className="graf-circle">For Equestrians with Questions</div>
-                            <div className="graf-circle">Welcome to Equester</div>
-                            <div className="graf-circle">For Equestrians with Questions</div>
-                            <div className="graf-circle">Welcome to Equester</div>
+                    
+                    <h1 className="home-title">Welcome to Equester. We're glad you are here. </h1>
+                   
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="jumbotron">
+                                <h2>
+                                    This is how it works
+                                </h2>
+                                <p>
+                                You register your horse (or donkey, mule, zebra: whatever you're into) with Equester -- upload a few pictures and fill out some basic information. 
+Start logging events on your horses timeline. Log shoeings and rep your favorite farrier or log a trail ride and tag your friends.
+Build a record overtime of your equines' activities, care and experiences. This will add to the value of your horse if you plan to sell one day and also act as thorough set of records for your own use. 
+                                </p>
+                                <p>
+                                    <button class="btn btn-primary btn-large" href="#">Register an Equine</button>
+                                </p>
+                            </div>
                         </div>
+                        
                     </div>
-                    <h1 className="home-title">For Equestrians with Questions</h1>
                 </div>
             </div>
         )

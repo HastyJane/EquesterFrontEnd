@@ -10,6 +10,7 @@ class Profile extends Component {
         return (
             <div className="profile-container">
                 <div className="container">
+                    
                     <div className="profile-info">
                         <div className="profile-avatar">
                             {
