@@ -9,9 +9,15 @@
     "bootstrap": "^3.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.3.3",
     "react-json-view": "latest",
     "react-s-alert": "^1.4.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^3.4.3",
+    "react-slideshow-image": "^3.0.2",
+    "uniforms": "^3.0.0-rc.2",
+    "uniforms-bridge-json-schema": "^3.0.0-rc.2",
+    "uniforms-material": "^3.0.0-rc.2",
+    "uniforms-semantic": "^3.0.0-rc.2"
   },
   "scripts": {
     "start": "react-scripts start",

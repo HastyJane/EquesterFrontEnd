@@ -15,7 +15,7 @@ class AppHeader extends Component {
                                 { this.props.authenticated ? (
                                     <ul>
                                         <li>
-                                            <NavLink to="/profile">Search</NavLink>
+                                            <NavLink to="/profile">Search</NavLink> 
                                         </li>
                                         <li>
                                             <NavLink to="/profile">My Profile</NavLink>
@@ -33,7 +33,7 @@ class AppHeader extends Component {
                                             <NavLink to="/login">Login</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/signup">Signup</NavLink>
+                                            <NavLink to="/signup">Sign-up</NavLink>
                                         </li>
                                     </ul>
                                 )}

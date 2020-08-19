@@ -64,7 +64,7 @@ body {
     height: 310px;
     border-radius: 50%;
     border: 5px solid #ffa20a;
-    border-left: none;
+    border-left: 10px;
     border-top: none;
     animation: scaleTwo 5s infinite alternate linear
 }
@@ -87,7 +87,7 @@ body {
     border-radius: 50%;
     border: 5px solid #ec412c;
     border-bottom: none;
-    border-left: none;
+    border-left: 10px;
     animation: scaleThree 4.5s infinite alternate linear
 }
 

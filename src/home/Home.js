@@ -7,22 +7,28 @@ class Home extends Component {
             <div className="home-container">
                 <div className="container">
                     
-                    <h1 className="home-title">Welcome to Equester. We're glad you are here. </h1>
+                    <h1 className="home-title">Welcome to Equester. </h1>
                    
                 </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="jumbotron">
-                                <h2>
+                                <h3>
                                     This is how it works
-                                </h2>
+                                </h3>
                                 <p>
-                                You register your horse (or donkey, mule, zebra: whatever you're into) with Equester -- upload a few pictures and fill out some basic information. 
-Start logging events on your horses timeline. Log shoeings and rep your favorite farrier or log a trail ride and tag your friends.
-Build a record overtime of your equines' activities, care and experiences. This will add to the value of your horse if you plan to sell one day and also act as thorough set of records for your own use. 
+                                    <ol>
+                                        <li>You register your horse (or donkey, mule, zebra: whatever you're into) with Equester</li>
+                                        <li>Upload a few pictures and fill out some basic information</li>
+                                        <li>Start logging events on your horses timeline. Log shoeings and rep your favorite farrier or log a trail ride and tag your friends.</li>
+                                        <li>Build a record overtime of your equines' activities, care and experiences.</li>
+                                        <li>This will add to the value of your horse if you plan to sell one day and also act as thorough set of records for your own use.</li>
+                                    </ol>
                                 </p>
                                 <p>
+                                    <button class="btn btn-primary btn-large" href="#">Login</button>
+                                    <button class="btn btn-primary btn-large" href="#">Sign Up</button>
                                     <button class="btn btn-primary btn-large" href="#">Register an Equine</button>
                                 </p>
                             </div>
