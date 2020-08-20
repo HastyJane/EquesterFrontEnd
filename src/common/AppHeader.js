@@ -14,14 +14,12 @@ class AppHeader extends Component {
                         <nav className="app-nav">
                                 { this.props.authenticated ? (
                                     <ul>
-                                        <li>
-                                            <NavLink to="/profile">Search</NavLink> 
-                                        </li>
+                                        
                                         <li>
                                             <NavLink to="/profile">My Profile</NavLink>
                                         </li>
                                         <li>
-                                            <NavLink to="/profile">My Equines</NavLink>
+                                            <NavLink to="/EditInfoForm">Edit Equine Profile</NavLink>
                                         </li>
                                         <li>
                                             <button onClick={this.props.onLogout}>Logout</button>
