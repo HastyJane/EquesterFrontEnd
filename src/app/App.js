@@ -20,6 +20,7 @@ import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/slide.css';
 import './App.css';
 import EditInfoForm from '../edit-profile/EditInfoForm';
+import EquineProfile from '../equine-profile/equineProfile';
 
 class App extends Component {
   constructor(props) {
@@ -83,7 +84,8 @@ class App extends Component {
               component={Profile}></PrivateRoute>
               <PrivateRoute path="/EditInfoForm" authenticated={this.state.authenticated} currentUser={this.state.currentUser}
               component={EditInfoForm}></PrivateRoute>
-          
+              <PrivateRoute path="/EquineProfile" authenticated={this.state.authenticated} currentUser={this.state.currentUser}
+              component={EquineProfile}></PrivateRoute>
             <Route path="/login"
               render={(props) => <Login authenticated={this.state.authenticated} {...props} />}></Route>
             <Route path="/signup"

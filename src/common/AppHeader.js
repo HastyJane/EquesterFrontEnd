@@ -19,6 +19,9 @@ class AppHeader extends Component {
                                             <NavLink to="/profile">My Profile</NavLink>
                                         </li>
                                         <li>
+                                            <NavLink to="/EquineProfile">Equine Profile</NavLink>
+                                        </li>
+                                        <li>
                                             <NavLink to="/EditInfoForm">Edit Equine Profile</NavLink>
                                         </li>
                                         <li>

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import './editInfoForm.css';
 import { Container } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 
 
-class EditInfoForm extends Component {
+class EquineProfile extends Component {
     
     constructor(props) {
         super(props);
@@ -17,17 +16,11 @@ class EditInfoForm extends Component {
             <Container>
                 <Row>
                     <Col>
-                        <form>
+                        
                             <h1>
-                                Edit equine information
+                                Equine Name
                             </h1>
-                            <p>
-                                Enter your equine's name:
-                            </p>
-                            <input 
-                                type="text"
-                            />
-                        </form>
+                            
                         </Col>
                 </Row>
                 
@@ -38,4 +31,4 @@ class EditInfoForm extends Component {
 
 
 
-    export default EditInfoForm 
+    export default EquineProfile 
